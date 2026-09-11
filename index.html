@@ -13,6 +13,10 @@
     main { width: min(100%, 1500px); margin: 0 auto; padding: 20px 12px 48px; }
     h1 { margin: 0 0 6px; font-size: clamp(22px, 5vw, 34px); }
     p { margin: 0 0 18px; font-weight: 700; }
+    .why { margin: 0 0 20px; padding: 16px 18px; border-radius: 14px; background: #fff; }
+    .why h2 { margin: 0 0 10px; font-size: clamp(18px, 4.5vw, 24px); }
+    .why ol { margin: 0; padding-left: 1.4em; }
+    .why li + li { margin-top: 8px; }
     picture, img { display: block; width: 100%; }
     img { height: auto; border-radius: 14px; background: #111; }
   </style>
@@ -21,6 +25,16 @@
   <main>
     <h1>キャラクター候補</h1>
     <p>A〜Fから、固定する1体を選んでください。</p>
+    <section class="why" aria-labelledby="why-title">
+      <h2 id="why-title">旧スタンプがダメだった5つの理由</h2>
+      <ol>
+        <li>同じ丸い体に飾りを足し、シンプルでシュールな可愛さを外した。</li>
+        <li>笑顔や困り顔にとどまり、返信への不安・嫉妬・好きの重さが伝わらなかった。</li>
+        <li>動くことは確認したが、気持ちが伝わり使いたくなる内容かを確かめきれなかった。</li>
+        <li>キャラの採用確認で止まれず、台詞・動き・16種の制作まで進めた。</li>
+        <li>動画を見るための確認サイトに、余計な機能と不要なZIPを盛り込んだ。</li>
+      </ol>
+    </section>
     <picture>
       <source media="(max-width: 700px)" srcset="review/round01/character_candidates_mobile.png">
       <img src="review/round01/character_candidates.png" alt="うさぎ2案、ねこ2案、いぬ2案のキャラクター候補AからF。各案に基本形、返信待ち、嫉妬、好き重めの4ポーズ。">
