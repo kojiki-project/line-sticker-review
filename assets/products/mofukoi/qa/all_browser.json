@@ -1,0 +1,235 @@
+{
+  "browser": "151.0.7922.137",
+  "engine": "Chromium real APNG playback, file URLs",
+  "screenshots": [
+    "evidence/all_browser_0.png",
+    "evidence/all_browser_1.png",
+    "evidence/all_browser_2.png",
+    "evidence/all_browser_3.png",
+    "evidence/all_browser_4.png"
+  ],
+  "files": [
+    {
+      "file": "release/line/01.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "1aa3337cbbef348dafb94a99dcb4701aa34d4be4bfd94f8a8c691edfe3869271",
+        "07271354b1304518af0c2b4a5896a68cc7ca7729712803db5d974be7dbe13569",
+        "1c78881a3009586bf6b877a714f9fe408c3ef93126b98326445e50d37fb316cb",
+        "d8689ea2c35025135564a7cab46bce839f8a69b4843e71a2de74ff958b9ae6c6",
+        "d8689ea2c35025135564a7cab46bce839f8a69b4843e71a2de74ff958b9ae6c6"
+      ]
+    },
+    {
+      "file": "release/line/02.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "e83e2cc879fefe8c951828715c1aca9e057be10719237a9cc3b962640851fc51",
+        "f302fbbc712c705d289222a0de3ed5c72ce73dd0a1a2ed2877b4c5c5af253c2e",
+        "55cf856f392a2e8b475564850e5f5e72cbe6dec6f7ee598d94d22bd58aa58180",
+        "532b9de949da255e45bc61def79da057d9d6f41323d3f61ebe06b2632c22518a",
+        "532b9de949da255e45bc61def79da057d9d6f41323d3f61ebe06b2632c22518a"
+      ]
+    },
+    {
+      "file": "release/line/03.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "00dcf06b7b1dbf9c0b6b8db407dbbd337cb2ca5e7158fa7ebd90d829aa8dedb3",
+        "f272e90964b9a2ed9c638b7f31085a78537c40ff9f4c926b75190a3953d95423",
+        "ba2b999e051888c1a6c6088a09a06b7f36e719fe4a70c38b660e2c95543119c2",
+        "79bc7a750324258d6a9b9f307ff8096ff0911ce07ec9c78c97575346b920bdd2",
+        "79bc7a750324258d6a9b9f307ff8096ff0911ce07ec9c78c97575346b920bdd2"
+      ]
+    },
+    {
+      "file": "release/line/04.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "196068b8c8a57477829daddfb5a3da408b342ea640b264d9a4a609457ef1538a",
+        "fbf82c5c2464ee2e8d0c7ae2b3f41eff011759c7b71bc742461f599069ce3261",
+        "24942320e2dd2c56e2014abf55618d2858a3a1d27067415491232dc6212b3ba7",
+        "37e53cee44b748aa8424d6c4fd8a45d82d1cad4d595ad6804ba48532acf1a022",
+        "37e53cee44b748aa8424d6c4fd8a45d82d1cad4d595ad6804ba48532acf1a022"
+      ]
+    },
+    {
+      "file": "release/line/05.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "042999af79cc4ed1fa1e19a1b673f879fa29d0266a2abfcc8dc7e22601cdaf9b",
+        "92741b1f3055270cb9c4e8d2c34e20bcc56982aba5a12345efb0ed4eb45e2f05",
+        "e0cc025074bd6c7e95578523f3919c5cabf06a20c8b9e9078472ee27cdbdaa91",
+        "98d4f124c2f68d9124ecd97c47037e108e91c3905a3e0c9f9f9b4a8e53e29d89",
+        "98d4f124c2f68d9124ecd97c47037e108e91c3905a3e0c9f9f9b4a8e53e29d89"
+      ]
+    },
+    {
+      "file": "release/line/06.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "7f4092b325043f59619e0cafe3115e0d44e593b0074ff5ef964792eaed283b34",
+        "b98dc8f9a621ef2288f03b4f5e3158004cceb4c599ecb7d25e6e203bd8cecd76",
+        "c152a369760121e7e81885b006645a22ca50b8a96e7a906c6c1a96dcd6703fe8",
+        "8b8faf8ebb9097074b7c10fe7e89b80de457b6d1e39b401af7c27338a39dd8b7",
+        "8b8faf8ebb9097074b7c10fe7e89b80de457b6d1e39b401af7c27338a39dd8b7"
+      ]
+    },
+    {
+      "file": "release/line/07.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "755e5102b0ed366489c34ff7dc93b625b602e43d978ed63c02c020d0b40f0710",
+        "f062f36c9ea3bbae0e9d6f6ed4e8821679729ad45cb99790fa0b7c69e2d5fd2e",
+        "04ae073f90c34795cb06f4274e2dac75f137088211f7da8ce64fda3eaad8d742",
+        "564c8025aad5e42cb08798d070523dfe8f0e5d58602ecfd0da518bda6145e093",
+        "564c8025aad5e42cb08798d070523dfe8f0e5d58602ecfd0da518bda6145e093"
+      ]
+    },
+    {
+      "file": "release/line/08.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "83ab389437eb94dbf3ddd3b6865bf4146740d200edcf6ac2e09bdad7d9715411",
+        "3b6a4f10142d0c332fe6cbfa86c868f0a9cebd04a56d818db4d60b7725c29064",
+        "e3a4ad2b09295e80d540687f07da3a645ccbedf5097df06e9d9883bd9ccca872",
+        "7e326fafb0b062724705a2576ffe286457e6d073a2c96f24e3fac0bb0b6e2dd0",
+        "7e326fafb0b062724705a2576ffe286457e6d073a2c96f24e3fac0bb0b6e2dd0"
+      ]
+    },
+    {
+      "file": "release/line/09.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "b3ac7eccacef4065d72452c542eb6961ee38054575b7da5d32a472763fe49d9f",
+        "ee7cc081d1baeaacecb9cbf08935bb13655a405583c32c5287ed4ea42fb88c4a",
+        "6d63608f36af07fd8a80ce0b1928eb56a177308856ff3f806677e6fdb57d33fe",
+        "36d61119382354ddd8b207c1f786eca43dd4c3ffb76d5eb3d26fb405e2e257df",
+        "36d61119382354ddd8b207c1f786eca43dd4c3ffb76d5eb3d26fb405e2e257df"
+      ]
+    },
+    {
+      "file": "release/line/10.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "a7ac9f8d5289a74a5083ca794e1efd9ccd380736a36887cec7489892fa40855f",
+        "ba8f84c4d07f2c169feeb0fc8dfaf0108735fb84c62206b9713357b7133b88e8",
+        "e03634fdadd83d4d7345b2317a5664b3fcf0d2b3204b868021f2f4c8bfe2fc2c",
+        "f7aedf05799e964b571eb603e329068189e0e5d88f0aa0ac1eceddc168bc5873",
+        "f7aedf05799e964b571eb603e329068189e0e5d88f0aa0ac1eceddc168bc5873"
+      ]
+    },
+    {
+      "file": "release/line/11.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "4173b5680467d32a5a0d3f239c6940467cdcaf8f4c23c62f8d86cb1d801ce3f9",
+        "65feb0f285fcd3196e9d03d43c483f48a62d014f0fe294ed5c56e571877486f5",
+        "1c59647b29b3decd73f504db0c4df45ef6e3bdb498c3d0c3670980ca018ee3e4",
+        "c4bc325783aa17209cf303319b73c32d2ac9f45113d85917951e111fc05410b2",
+        "c4bc325783aa17209cf303319b73c32d2ac9f45113d85917951e111fc05410b2"
+      ]
+    },
+    {
+      "file": "release/line/12.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "f968c8cf15058277a314e902ce69b28a2dd430eb41a3f41907cf3d69fa138453",
+        "1642704185c0c024cfef5811de9ccb1a0248c87e0c7334d4a361539fcf9886d3",
+        "c9f6ea251a164f70d4021fe32d2fbb1f16536c38cbf81e00995bd42c47d38fa0",
+        "98775bebd7f5b950a86a661890f946c59242a2e083729da4d9ab92c39d8f824c",
+        "98775bebd7f5b950a86a661890f946c59242a2e083729da4d9ab92c39d8f824c"
+      ]
+    },
+    {
+      "file": "release/line/13.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "00d64c61c0a6808540010dc57884f6de47fd3227fa7e743568c3cd9f03626f51",
+        "818a94fb58f00f57500dc2f4b518aad8f5b031ea086f9bff70796ee60f5f3e9d",
+        "bd94deaf7b973fa26b6dba6fc6f6f1be8cd4c58559f96829d7a96befdcf55925",
+        "6d6d410f9adc54825bd84a3e5e7dc6c187fbd246477bcb5be046a7ed077af9bc",
+        "6d6d410f9adc54825bd84a3e5e7dc6c187fbd246477bcb5be046a7ed077af9bc"
+      ]
+    },
+    {
+      "file": "release/line/14.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "20be1d3c64d7e798db298c0a68d4d72704d6d49b19f7ea9974b11aa9265a7543",
+        "75141390056522cc5221d2c4e21c574581abfd92a7f22c3a70b5add05f882ca2",
+        "1e91ef59c75762edbae0f638d53bc12fec4421338ad6cde2cd750aca12febc30",
+        "0daa285435e8208306d56a1d3e8aec2077fb5da543089f1ae506abfe6b88ec90",
+        "0daa285435e8208306d56a1d3e8aec2077fb5da543089f1ae506abfe6b88ec90"
+      ]
+    },
+    {
+      "file": "release/line/15.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "02aaa6e4bda8b206811758a2522ca2b75d0384d683f46ad3e8bc4d544d33d81b",
+        "806fdad4590310c570b0e288c57199c745bf7d8be5dc6d1cb0bdd869f7d961d9",
+        "4078a5aafa72a43cb6d340aab1d2ac27af07cd541b2cc1a106262e6c15b62241",
+        "c01a45a1c4c351b23af2ab5c8dd3cd9bc73d61c55fdfaf09596610626e622517",
+        "c01a45a1c4c351b23af2ab5c8dd3cd9bc73d61c55fdfaf09596610626e622517"
+      ]
+    },
+    {
+      "file": "release/line/16.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "ef7383ba2e6bd7ac09fae47a09f79dfe823af1e420f9714cd9b0f9c2471c8513",
+        "4280c4f75db75e2e50bf4a50c517996f786a64430b275459ecb7608a6d806660",
+        "5ada0fddd55b7aff21e9a522d4c2ec4a9ad2d863bc604c4d39220b67c2945047",
+        "2ca96c675f2c78e2716b70d02da6416511eb695c6cf1f6c9b15697cc15d54ce5",
+        "2ca96c675f2c78e2716b70d02da6416511eb695c6cf1f6c9b15697cc15d54ce5"
+      ]
+    },
+    {
+      "file": "release/line/main.png",
+      "visible_states": 3,
+      "animation_changed": true,
+      "stopped_after_four_seconds": true,
+      "screenshot_crop_hashes": [
+        "16c58f87d67d29cbe1b80a7f4c7a9814946c54ddbe0a9a0c189851deabd94616",
+        "a55f551272a31853eced700793e3dc9c1aef602283501109d7ab5a32720f9c9f",
+        "b6af28246680d1f201eb494079be054918aa9038643029deac734630b2fc4126",
+        "95bb8ab12f48832ea47e79182b761eaffe763c2c39f9914093b9c576b807c4d7",
+        "95bb8ab12f48832ea47e79182b761eaffe763c2c39f9914093b9c576b807c4d7"
+      ]
+    }
+  ],
+  "all_pass": true
+}

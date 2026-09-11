@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="動くLINEスタンプをスマホで確認・検索・保存できるレビューカタログ。">
+  <meta name="theme-color" content="#fff8f1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>LINEスタンプ レビュー室</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-stage-bg="checker">
+  <a class="skip-link" href="#catalog">スタンプ一覧へ移動</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="ページ上部へ">
+      <span class="brand-mark" aria-hidden="true">♥</span>
+      <span><strong>STICKER REVIEW ROOM</strong><small>できあがりを、ひとつずつ。</small></span>
+    </a>
+    <label class="pack-switcher" id="packSwitcherWrap" hidden>
+      <span>パック</span>
+      <select id="packSwitcher" aria-label="表示するスタンプパック"></select>
+    </label>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell" aria-labelledby="productTitle">
+      <div class="hero-copy">
+        <p class="eyebrow"><span>PACK 01</span> ANIMATED STICKERS</p>
+        <h1 id="productTitle"><span class="loading-line">読み込み中…</span></h1>
+        <p class="hero-description" id="productDescription">商品データを読み込んでいます。</p>
+        <div class="status-note" id="statusNote" role="note"></div>
+        <div class="hero-facts" id="heroFacts" aria-label="作品の確認状況"></div>
+        <a class="review-cta" href="#catalog">16個を確認する <span aria-hidden="true">↓</span></a>
+        <div class="download-row" id="downloadRow"></div>
+        <p class="download-footnote" id="downloadFootnote"></p>
+      </div>
+      <div class="hero-stage sticker-stage" id="heroStage" aria-label="完成スタンプのアニメーション見本">
+        <div class="hero-placeholder" aria-hidden="true">♥</div>
+      </div>
+    </section>
+
+    <section class="control-dock section-shell" aria-label="カタログ表示設定">
+      <div class="search-wrap">
+        <label for="searchInput">スタンプを検索</label>
+        <div class="search-field">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+          <input id="searchInput" type="search" placeholder="例：すき、ねこ、寝る前" autocomplete="off">
+        </div>
+      </div>
+      <div class="control-group">
+        <span class="control-label">透明背景を確認</span>
+        <div class="segmented" id="backgroundToggle" aria-label="スタンプ背景">
+          <button type="button" data-bg="light" aria-pressed="false"><span class="swatch swatch-light"></span>白</button>
+          <button type="button" data-bg="dark" aria-pressed="false"><span class="swatch swatch-dark"></span>黒</button>
+          <button type="button" data-bg="checker" aria-pressed="true"><span class="swatch swatch-checker"></span>市松</button>
+        </div>
+      </div>
+      <button class="replay-button" id="replayAll" type="button">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.3-5.7L20 8.6M20 4v4.6h-4.6"/></svg>
+        すべて再生
+      </button>
+    </section>
+
+    <section class="catalog section-shell" id="catalog" aria-labelledby="catalogTitle">
+      <div class="section-heading">
+        <div><p class="eyebrow">ALL STICKERS</p><h2 id="catalogTitle">16の気持ち</h2></div>
+        <p class="result-count" id="resultCount" aria-live="polite">読み込み中</p>
+      </div>
+      <div class="filter-chips" id="filterChips" aria-label="キャラクターで絞り込む"></div>
+      <div class="sticker-grid" id="stickerGrid" aria-busy="true"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <span aria-hidden="true">…</span><h3>見つかりませんでした</h3><p>別の言葉で探すか、絞り込みを「すべて」に戻してください。</p>
+      </div>
+    </section>
+
+    <section class="preview section-shell" aria-labelledby="previewTitle">
+      <div class="section-heading">
+        <div><p class="eyebrow">MOTION PREVIEW</p><h2 id="previewTitle">64秒で全16点を確認</h2></div>
+        <p class="section-note">実APNGを使った H.264 プレビュー</p>
+      </div>
+      <div class="preview-layout">
+        <div class="video-frame"><video id="previewVideo" controls playsinline preload="metadata"></video></div>
+        <div class="preview-copy">
+          <span class="tape-label">PLAYBACK NOTES</span>
+          <h3>会話の中で、動きを見る。</h3>
+          <p>1シーン4秒。16種類のアニメーションを縦型動画で続けて確認できます。</p>
+          <dl class="spec-list">
+            <div><dt>形式</dt><dd>H.264 / yuv420p</dd></div>
+            <div><dt>画面</dt><dd>720 × 1280</dd></div>
+            <div><dt>長さ</dt><dd>64秒</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="review-assets section-shell" aria-labelledby="reviewTitle">
+      <div class="section-heading">
+        <div><p class="eyebrow">REVIEW SHEETS</p><h2 id="reviewTitle">仕上がりを面で確認</h2></div>
+      </div>
+      <div class="review-grid" id="reviewGrid"></div>
+    </section>
+
+    <section class="qa-section section-shell" aria-labelledby="qaTitle">
+      <div class="qa-intro">
+        <p class="eyebrow">QUALITY CHECK</p>
+        <h2 id="qaTitle">検品記録</h2>
+        <p>表示しているのは制作元に保存されたQA結果です。審査・公開状況を示すものではありません。</p>
+      </div>
+      <div class="qa-grid" id="qaGrid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <p><span aria-hidden="true">♥</span> LINE STICKER REVIEW CATALOG</p>
+    <a href="#top">ページ上部へ</a>
+  </footer>
+
+  <dialog class="sticker-dialog" id="stickerDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-card">
+      <button class="dialog-close" id="dialogClose" type="button" aria-label="詳細を閉じる">×</button>
+      <div class="dialog-layout">
+        <div class="dialog-visual sticker-stage">
+          <img id="dialogAnimation" alt="">
+          <button class="mini-replay" id="dialogReplay" type="button">もう一度再生</button>
+        </div>
+        <div class="dialog-copy">
+          <p class="eyebrow" id="dialogNumber"></p>
+          <h2 id="dialogTitle"></h2>
+          <p class="character-pill" id="dialogCharacter"></p>
+          <div class="use-callout"><span>こんな時に</span><p id="dialogUse"></p></div>
+          <div class="motion-flow" aria-label="アニメーションの開始と終了">
+            <figure><span>START</span><div class="sticker-stage"><img id="dialogStart" alt=""></div><figcaption id="dialogStartText"></figcaption></figure>
+            <span class="flow-arrow" aria-hidden="true">→</span>
+            <figure><span>END</span><div class="sticker-stage"><img id="dialogEnd" alt=""></div><figcaption id="dialogEndText"></figcaption></figure>
+          </div>
+          <p class="motion-meta" id="dialogMotionMeta"></p>
+          <a class="download-button item-download" id="dialogDownload" download>このスタンプを保存</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <noscript><p class="noscript">このカタログの表示にはJavaScriptが必要です。</p></noscript>
+</body>
+</html>

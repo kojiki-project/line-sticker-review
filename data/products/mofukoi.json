@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "slug": "mofukoi",
+  "title": "動く！すきが多めのもふ恋",
+  "description": "犬・猫・うさぎの、ちょっと重くてかわいい彼女あるある。甘えたい日も、すねた日も、動くもふもふで素直な気持ちを。",
+  "status_note": "LINE Creators Marketへの申請・審査・販売・価格決定は未実施です。",
+  "item_count": 16,
+  "featured_item_ids": [
+    "01",
+    "03",
+    "16"
+  ],
+  "assets": {
+    "main": "assets/products/mofukoi/main.png",
+    "tab": "assets/products/mofukoi/tab.png",
+    "preview_video": "assets/products/mofukoi/review/preview.mp4",
+    "contact_sheet": "assets/products/mofukoi/review/contact_sheet.png",
+    "start_end_sheet": "assets/products/mofukoi/review/start_end.png",
+    "character_sheet": "assets/products/mofukoi/review/character_sheet.png"
+  },
+  "downloads": {
+    "line_upload": {
+      "label": "LINEアップロード用ZIPを保存",
+      "url": "assets/products/mofukoi/downloads/Suki_ga_Oome_no_Mofukoi_LINE_upload.zip",
+      "bytes": 6948966,
+      "sha256": "ea64fee03b85cfd19d403f8ed35f15652634d4015db7e037a87d114d17af1731",
+      "file_count": 18
+    },
+    "complete_delivery": {
+      "label": "完全版デリバリーZIPを保存",
+      "url": "https://github.com/kojiki-project/line-sticker-review/releases/download/mofukoi-v1.0/Suki_ga_Oome_no_Mofukoi_complete_delivery.zip",
+      "bytes": 48022544,
+      "sha256": "9835e931152edecb73e8aeeb2e9d002b3c440e29282021e8df2e43a10a51c02f",
+      "file_count": 364,
+      "availability_note": "提出用ZIPは緑、制作データ一式は完全版を選んでください。"
+    }
+  },
+  "qa": [
+    {
+      "label": "機械QA",
+      "status": "PASS",
+      "detail": "LINE画像 18点を検査",
+      "source": "assets/products/mofukoi/qa/all_machine.json"
+    },
+    {
+      "label": "Chromium実再生QA",
+      "status": "PASS",
+      "detail": "APNG再生 17点を確認",
+      "source": "assets/products/mofukoi/qa/all_browser.json"
+    },
+    {
+      "label": "動画QA",
+      "status": "PASS",
+      "detail": "H264・720×1280・64秒",
+      "source": "assets/products/mofukoi/qa/video.json"
+    },
+    {
+      "label": "梱包QA",
+      "status": "PASS",
+      "detail": "LINE用ZIP 18ファイルを検査",
+      "source": "assets/products/mofukoi/qa/package.json"
+    }
+  ],
+  "items": [
+    {
+      "id": "01",
+      "text": "すき、足りない",
+      "character": "bunny",
+      "character_label": "みるく / うさぎ",
+      "intended_use": "愛情のおかわりをねだる",
+      "start": "小さなハートを胸に抱える",
+      "end": "ハートが腕いっぱいに膨らむ",
+      "motion": "heart_grow",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/01.png",
+      "start_image": "assets/products/mofukoi/stills/01-start.png",
+      "end_image": "assets/products/mofukoi/stills/01-end.png"
+    },
+    {
+      "id": "02",
+      "text": "返信で復活",
+      "character": "dog",
+      "character_label": "こむぎ / いぬ",
+      "intended_use": "返信が来てうれしい",
+      "start": "耳を垂らしてスマホを抱える",
+      "end": "耳が跳ね、嬉しさが弾む",
+      "motion": "revive",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/02.png",
+      "start_image": "assets/products/mofukoi/stills/02-start.png",
+      "end_image": "assets/products/mofukoi/stills/02-end.png"
+    },
+    {
+      "id": "03",
+      "text": "かまって充電",
+      "character": "cat",
+      "character_label": "すみれ / ねこ",
+      "intended_use": "甘えたい気分を伝える",
+      "start": "空きのあるハート電池を抱える",
+      "end": "電池が満ちて尻尾が立つ",
+      "motion": "charge",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/03.png",
+      "start_image": "assets/products/mofukoi/stills/03-start.png",
+      "end_image": "assets/products/mofukoi/stills/03-end.png"
+    },
+    {
+      "id": "04",
+      "text": "あと５分だけ",
+      "character": "bunny",
+      "character_label": "みるく / うさぎ",
+      "intended_use": "会話や一緒の時間を延長",
+      "start": "クッションを抱えて横を向く",
+      "end": "抱きしめながら左右に揺れる",
+      "motion": "pillow",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/04.png",
+      "start_image": "assets/products/mofukoi/stills/04-start.png",
+      "end_image": "assets/products/mofukoi/stills/04-end.png"
+    },
+    {
+      "id": "05",
+      "text": "ほめての待機",
+      "character": "dog",
+      "character_label": "こむぎ / いぬ",
+      "intended_use": "頑張った後にほめてほしい",
+      "start": "前足をそろえて期待の顔",
+      "end": "胸を張ってリボンを見せる",
+      "motion": "praise",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/05.png",
+      "start_image": "assets/products/mofukoi/stills/05-start.png",
+      "end_image": "assets/products/mofukoi/stills/05-end.png"
+    },
+    {
+      "id": "06",
+      "text": "ちょっとやきもち",
+      "character": "cat",
+      "character_label": "すみれ / ねこ",
+      "intended_use": "笑える程度の軽い嫉妬",
+      "start": "小さく頬を膨らませる",
+      "end": "さらにぷくっと膨らませ耳が傾く",
+      "motion": "jealous",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/06.png",
+      "start_image": "assets/products/mofukoi/stills/06-start.png",
+      "end_image": "assets/products/mofukoi/stills/06-end.png"
+    },
+    {
+      "id": "07",
+      "text": "会いたさ満タン",
+      "character": "dog",
+      "character_label": "こむぎ / いぬ",
+      "intended_use": "会いたい気持ちを伝える",
+      "start": "ハートが一つ入った瓶を持つ",
+      "end": "瓶いっぱいにハートが増える",
+      "motion": "jar",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/07.png",
+      "start_image": "assets/products/mofukoi/stills/07-start.png",
+      "end_image": "assets/products/mofukoi/stills/07-end.png"
+    },
+    {
+      "id": "08",
+      "text": "すきって言って",
+      "character": "bunny",
+      "character_label": "みるく / うさぎ",
+      "intended_use": "言葉でも好きがほしい",
+      "start": "片耳に手を添えて待つ",
+      "end": "耳を傾け小さなハートを受け取る",
+      "motion": "listen",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/08.png",
+      "start_image": "assets/products/mofukoi/stills/08-start.png",
+      "end_image": "assets/products/mofukoi/stills/08-end.png"
+    },
+    {
+      "id": "09",
+      "text": "平気…ではない",
+      "character": "cat",
+      "character_label": "すみれ / ねこ",
+      "intended_use": "寂しい気持ちを柔らかく告白",
+      "start": "クッションから目だけのぞく",
+      "end": "顔を出し、また少し隠れる",
+      "motion": "peek",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/09.png",
+      "start_image": "assets/products/mofukoi/stills/09-start.png",
+      "end_image": "assets/products/mofukoi/stills/09-end.png"
+    },
+    {
+      "id": "10",
+      "text": "ぎゅー予約",
+      "character": "dog",
+      "character_label": "こむぎ / いぬ",
+      "intended_use": "次に会った時のハグを約束",
+      "start": "ハートの予約券を持つ",
+      "end": "券を前へ差し出し両腕を開く",
+      "motion": "ticket",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/10.png",
+      "start_image": "assets/products/mofukoi/stills/10-start.png",
+      "end_image": "assets/products/mofukoi/stills/10-end.png"
+    },
+    {
+      "id": "11",
+      "text": "まだ話したい",
+      "character": "bunny",
+      "character_label": "みるく / うさぎ",
+      "intended_use": "通話や会話の終わりに",
+      "start": "吹き出しに前足を添える",
+      "end": "吹き出しを大事に引き寄せる",
+      "motion": "chat",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/11.png",
+      "start_image": "assets/products/mofukoi/stills/11-start.png",
+      "end_image": "assets/products/mofukoi/stills/11-end.png"
+    },
+    {
+      "id": "12",
+      "text": "ごめん、すねてた",
+      "character": "cat",
+      "character_label": "すみれ / ねこ",
+      "intended_use": "すねた後の自己申告と謝罪",
+      "start": "前足をそろえ照れ顔",
+      "end": "小さく頭を下げて顔を上げる",
+      "motion": "sorry",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/12.png",
+      "start_image": "assets/products/mofukoi/stills/12-start.png",
+      "end_image": "assets/products/mofukoi/stills/12-end.png"
+    },
+    {
+      "id": "13",
+      "text": "待てる、たぶん",
+      "character": "dog",
+      "character_label": "こむぎ / いぬ",
+      "intended_use": "急かさず待つ気持ち",
+      "start": "小さな砂時計の横で座る",
+      "end": "足がそわそわ、首をかしげる",
+      "motion": "wait",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/13.png",
+      "start_image": "assets/products/mofukoi/stills/13-start.png",
+      "end_image": "assets/products/mofukoi/stills/13-end.png"
+    },
+    {
+      "id": "14",
+      "text": "なかなおりしよ",
+      "character": "cat",
+      "character_label": "すみれ / ねこ",
+      "intended_use": "関係を戻す優しい誘い",
+      "start": "前足を胸元に寄せる",
+      "end": "両腕を開きハートを差し出す",
+      "motion": "reconcile",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/14.png",
+      "start_image": "assets/products/mofukoi/stills/14-start.png",
+      "end_image": "assets/products/mofukoi/stills/14-end.png"
+    },
+    {
+      "id": "15",
+      "text": "おやすみの前に",
+      "character": "bunny",
+      "character_label": "みるく / うさぎ",
+      "intended_use": "寝る前にもう一度甘える",
+      "start": "月の横でハートを口元に持つ",
+      "end": "ハートをふわりと送る",
+      "motion": "goodnight",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/15.png",
+      "start_image": "assets/products/mofukoi/stills/15-start.png",
+      "end_image": "assets/products/mofukoi/stills/15-end.png"
+    },
+    {
+      "id": "16",
+      "text": "今日もすき多め",
+      "character": "trio",
+      "character_label": "こむぎ・すみれ・みるく / 3匹",
+      "intended_use": "一日の最後や毎日の愛情表現",
+      "start": "犬・猫・うさぎが並ぶ",
+      "end": "順番に弾んでハートが集まる",
+      "motion": "trio",
+      "frames": 16,
+      "frame_ms": 125,
+      "loops": 2,
+      "dimensions": [
+        320,
+        270
+      ],
+      "animation": "assets/products/mofukoi/stickers/16.png",
+      "start_image": "assets/products/mofukoi/stills/16-start.png",
+      "end_image": "assets/products/mofukoi/stills/16-end.png"
+    }
+  ]
+}

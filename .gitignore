@@ -1,0 +1,6 @@
+evidence/
+.project_preflight.json
+ut.config.yaml
+PRODUCTION_CONTRACT.md
+__pycache__/
+*.pyc

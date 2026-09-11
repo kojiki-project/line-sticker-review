@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "products": [
+    {
+      "slug": "mofukoi",
+      "title": "動く！すきが多めのもふ恋",
+      "description": "犬・猫・うさぎの、ちょっと重くてかわいい彼女あるある。甘えたい日も、すねた日も、動くもふもふで素直な気持ちを。",
+      "thumbnail": "assets/products/mofukoi/main.png",
+      "data": "data/products/mofukoi.json"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "file": "review/preview.mp4",
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "size": [
+    720,
+    1280
+  ],
+  "duration": 64.0,
+  "fps": "24/1",
+  "video_frames": 1536,
+  "scenes": 16,
+  "seconds_per_scene": 4,
+  "input": "actual decoded delivery APNG frames, two loops each",
+  "full_decode_error_log": "",
+  "sha256": "899aeb6b895790b5fab12d07c4012841d67820cdfbf53e3ecfe892288810e15f"
+}
