@@ -18,6 +18,7 @@ button,a{touch-action:manipulation}
 .brand strong{display:block;font-size:.75rem;letter-spacing:.11em}
 .brand small{display:block;margin-top:5px;color:var(--ink-soft);font-size:.7rem}
 .pack-switcher{display:grid;gap:2px;font-size:.65rem;font-weight:800;letter-spacing:.08em}
+.pack-switcher[hidden]{display:none}
 .pack-switcher select{max-width:150px;border:1px solid var(--line);border-radius:10px;background:#fff;padding:.4rem 1.7rem .4rem .55rem}
 .hero{position:relative;display:grid;gap:1.5rem;padding:26px 0 54px}
 .hero::after{content:"";position:absolute;right:-50px;bottom:10px;width:150px;height:150px;border:2px dashed rgba(242,126,155,.38);border-radius:47% 53% 46% 54%;z-index:-1}
